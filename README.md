@@ -32,11 +32,7 @@ sunset_filter.filter_image(target_image_path)
 sunset_filter.filtered_image.show()
 ```
 
-#### Target Image (washed out sunset)
-
-<img src="https://raw.githubusercontent.com/joelcarlson/GravityImageFilter/master/output/target.png" />
-
-#### Source Image (better quality sunset)
+#### Source Image (good quality sunset)
 
 <img src="https://raw.githubusercontent.com/joelcarlson/GravityImageFilter/master/output/source.png" />
 
@@ -47,6 +43,15 @@ These are the colors which make up the extracted palette:
 
 <img src="https://raw.githubusercontent.com/joelcarlson/GravityImageFilter/master/output/quantized.png" />
 
+
+#### Target Image (washed out sunset)
+
+<img src="https://raw.githubusercontent.com/joelcarlson/GravityImageFilter/master/output/target.png" />
+
 #### Filtered Target Image
 
 <img src="https://raw.githubusercontent.com/joelcarlson/GravityImageFilter/master/output/target_filtered.png" />
+
+### Conclusion
+
+The filtered image is certainly more varied in it's colors, and is perhaps more pleasing to the eye. 
