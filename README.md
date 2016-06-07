@@ -27,7 +27,7 @@ The code for creating this would look like:
 source_image_path = "test_images/sunset_good.jpg"
 target_image_path = "test_images/sunset_bad.jpg"
 
-sunset_filter = GravityFilter(source_image_path, n_colors=10, mult=1500)
+sunset_filter = GravityFilter(source_image_path, n_colors=9, mult=1500)
 sunset_filter.filter_image(target_image_path)
 sunset_filter.filtered_image.show()
 ```
